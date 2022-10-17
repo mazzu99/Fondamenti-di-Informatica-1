@@ -1,0 +1,26 @@
+Esercizio 1:
+Scrivete l'istruzione Python che calcola l'espressione (2**10)**5
+In [ ]: (2**10)**5
+
+Esercizio 2:
+Scrivete l'istruzione Python che calcola il resto della divisione di 5**2 per 2**3
+In [ ]: (5**2) // (2**3)
+
+Esercizio 3:
+Scrivete l'istruzione Python che calcola la radice di ((3**2) − (4*2))
+In [ ]: sqrt((3**2) − (4*2))
+
+Esercizio 4:
+Scrivete l'istruzione Python che genera la stringa 'ciao!ciaociao!!' a partire dalle stringhe 'ciao' e '!' ed usando
+gli operatori + e * .
+In [ ]: 'ciao' + '!' + ('ciao'*2) + ('!'*2)
+
+Esercizio 5:
+Scrivete l'istruzione Python che genera la stringa 'ciao!!!ciaociao!!!ciaociaociao!!!' a partire dalle stringhe 'ciao'
+e '!' ed usando gli operatori + e * .
+In [ ]:'ciao' + ('!'*3) + ('ciao'*2) + ('!'*3) + ('ciao'*3) + ('!'*3)
+
+Esercizio 6:
+Scrivete l'istruzione Python che genera la stringa 'ciao! ciao ciao!!ciao ciao ciao!!!' a partire dalle stringhe 'ciao',
+'!' e ' ' (spazio) ed usando gli operatori + e * .
+In [ ]:'ciao' + '!' + ' ' + 'ciao' + ' ' + 'ciao' + ('!'*2) + "ciao ciao ciao" + ('!'*3)
