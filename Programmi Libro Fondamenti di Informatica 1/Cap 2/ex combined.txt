@@ -1,0 +1,32 @@
+import math
+
+#Esercizio 1: Inserisci il raggio e restituisci l'area del cerchio
+
+var1 = int(input("Inserisci il valore del raggio: "))
+area = math.pi * (var1**2)
+print (area)
+
+------------------------------------------------------------------------------
+import math
+
+#Esercizio 2: Inserisci il raggio e restituisci l'area del cerchio e il diametro
+
+r = int(input("Inserisci il valore del raggio: "))
+area = math.pi * (r**2)
+print ("Area: ", area)
+print ("Diametro: ", r*2)
+
+------------------------------------------------------------------------------
+import math
+
+#Esercizio 3: Inserisci il raggio e altezza di un cilindro e restituisci l'area.
+
+r = int(input("Inserisci il valore del raggio: "))
+a = int(input("Inserisci il valore dell'altezza: "))
+
+area = math.pi * (r**2)
+volume = area * a
+
+print ("Area della base : ", area)
+print ("Volume : ", volume)
+

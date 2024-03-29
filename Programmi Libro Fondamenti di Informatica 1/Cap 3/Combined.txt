@@ -1,0 +1,53 @@
+#Esercizio 1
+
+s = input("Metti una stringa: ")
+c = input("Metti il carattere: ")
+
+find = s.find(c)
+print(find)
+
+count = s.count(c)
+print(count)
+
+replace =s.replace(c, "!!!")
+print(replace)
+
+
+--------------------------------------------------------------------
+#Esercizio 2
+
+s = input("Metti una stringa: ")
+c1 = input("Metti il primo carattere: ")
+c2 = input("Metti il secondo carattere: ")
+
+replace = s.replace(c1, c2)
+print(replace)
+
+count = s.count(c1+c2)
+print(count)
+
+
+--------------------------------------------------------------------
+#Esercizio 3
+
+s1 = input("Metti la prima stringa: ")
+c1 = input("Metti il primo carattere: ")
+s2 = input("Metti la seconda stringa: ")
+
+replace = s1.replace(c1, "!!!")
+print(replace)
+
+count = s1.count(s2)
+print(count)
+
+replace = s1.replace(s2, c1)
+print(replace)
+
+
+--------------------------------------------------------------------
+#Esercizio 4
+
+s1 = input("Metti la prima stringa: ")
+n = int(input("Metti il passo: "))
+
+print(s1[0:len(s1):n])

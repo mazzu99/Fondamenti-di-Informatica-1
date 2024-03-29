@@ -1,0 +1,86 @@
+#Esercizio 1
+
+s1 = input("Prima stringa: ")
+s2 = input("Seconda stringa: ")
+
+if s1[0] >= s2[0]:
+    print("Prima stringa: ", s2)
+    print("Seconda stringa: ", s1)
+else:
+    print("Prima stringa: ", s1)
+    print("Seconda stringa: ", s2)
+    
+
+if len(s1) >= len(s2):
+    print("Prima stringa: ", s2)
+    print("Seconda stringa: ", s1)
+else:
+    print("Prima stringa: ", s1)
+    print("Seconda stringa: ", s2)
+
+
+-------------------------------------------------------
+#Esercizio 2
+
+s1 = input("Prima stringa: ")
+s2 = input("Seconda stringa: ")
+
+if s2 in s1:
+    aus = s1.count(s2)
+    print("La stringa ", s2, "compare ", aus, "volte nella stringa ", s1)
+else:
+    print("La stringa ", s2, "non compare ", "nella stringa ", s1)
+
+
+-------------------------------------------------------
+#Esercizio 3
+
+s1 = input("Prima stringa: ")
+
+#Il modo in cui questo esercizio e' stato risolto mi sembra di barare pero' chi se ne frega e andiamo avanti
+if s1[::-1] == s1:
+    print(True)
+else:
+    print(False)
+
+
+-------------------------------------------------------
+#Esercizio 4
+
+from random import *
+n = int(input("Inserisci il range del valore n che sara' da indovinare (minimo 1): "))
+nv = randint(1,n)
+
+s1 = "Bravo hai indovinato"
+s2 = "Il numero che hai detto e' tropo grande"
+s3 = "Il numero che hai detto e' troppo piccolo"
+
+n1 = int(input("Inserisci il primo tentativo: "))
+if n1 == n:
+    print(s1)
+elif n1 > n:
+    print (s2)
+else:
+    print(s3)
+
+
+
+n2 = int(input("Inserisci il secondo tentativo: "))
+
+if n2 == n:
+    print(s1)
+elif n2 > n:
+    print (s2)
+else:
+    print(s3)
+
+
+
+n3 = int(input("Inserisci il terzo tentativo: "))
+
+if n3 == n:
+    print(s1)
+elif n3 > n:
+    print (s2)
+else:
+    print(s3)

@@ -1,0 +1,95 @@
+#Esercizio 1 parte 1
+
+c = True
+i = 0
+
+while c:
+    s1 = input("Inserisci stringa: ")
+    if s1 == "":
+        c = False
+    i = i + 1
+print(i-1)
+
+
+---------------------------------------------------------------------------------------------
+#Esercizio 1 parte 2
+
+c = True
+i = 0
+s1 = input("Inserisci stringa: ")
+
+while c:
+    if s1 == "":
+        c = False
+    s1 = input("Inserisci stringa: ")
+    i = i + 1
+print(i-1)
+
+
+---------------------------------------------------------------------------------------------
+#Esercizio 2
+
+n = 0
+c = True
+
+while c:
+    n1 = input("Inserisci un numero maggiore di 0: ")
+    if n1 == "*":
+        c = False
+    elif int(n1) > n:
+        n = int(n1)
+    else:
+        pass
+print(n)
+
+
+---------------------------------------------------------------------------------------------
+#Esercizio 3 sarebbe l'esercizio opzionale dell'altro capitolo quindi tutto appost
+print("Tutto apposto")
+
+
+---------------------------------------------------------------------------------------------
+#Esercizio 4
+
+n = 0
+i = 0
+c = True
+
+while c:
+    n1 = input("Inserisci un numero maggiore di 0: ")
+    if n1 == "*":
+        c = False
+    elif int(n1) > n:
+        n = n + int(n1)
+        i = i + 1
+    else:
+        pass
+if n == 0:
+    print("Non sono stati messi valori!!!")
+else:
+    print(n/i)
+
+
+---------------------------------------------------------------------------------------------
+#Esercizio 5
+
+n = 0
+i = 0
+c = True
+
+while c:
+    n1 = input("Inserisci un numero: ")
+    if n1 == "*":
+        c = False
+    elif int(n1) < 0:
+        i = i + 1
+    else:
+        pass
+
+print(i)
+
+
+
+
+
+

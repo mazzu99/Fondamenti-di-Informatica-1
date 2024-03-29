@@ -1,0 +1,61 @@
+#Esercizio 1
+
+c = True
+
+while c:
+    s1 = input("Inserisci la stringa vuota se vuoi uscire: ")
+    if s1 == "":
+        c = False
+    else:
+        print(len(s1))
+
+
+-------------------------------------------------------------------------------
+#Esercizio 2
+
+c = True
+
+while c:
+    n1 = input("Inserisci numeri e inserisci * per poter terminare: ")
+    if n1 == "*":
+        c = False
+    else:
+        n1 = int(n1)
+        if n1%2 == 0:
+            print("Pari")
+        else:
+            print("Dispari")
+
+
+-------------------------------------------------------------------------------
+#Esercio 3 parte 1
+
+s1 = input("Inserisci la stringa: ")
+c1 = input("Inserisci il carattere: ")
+i = 0
+aus = s1
+
+while i < len(s1):
+    if s1[i] == c1:
+        s1 = s1[:i] + s1[i+1:len(s1)]
+        print(s1)
+    i = i + 1
+if s1 == aus:
+    print(s1)
+
+
+-------------------------------------------------------------------------------
+#Esercio 3 parte 2
+
+s1 = input("Inserisci la stringa: ")
+c1 = input("Inserisci il carattere: ")
+aus = s1
+
+if c1 in s1:
+    if c1 in s1[0:len(s1)//2]:
+        blah
+    else:
+        
+else:
+    print(s1)
+#Secondo me bisogna solo un po' giocare con questi if e tutto apposto anche se non mi convince
